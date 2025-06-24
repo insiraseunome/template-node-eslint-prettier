@@ -37,11 +37,10 @@ As regras estão descritas no arquivo `eslint.config.mjs`, que também pode ser 
 
 No arquivo `package.json`, foram adicionados os seguintes scripts para facilitar a execução das ferramentas:
 
-```bash
-npm run lint         # Verifica problemas no código com o ESLint
+`npm run lint        # Verifica problemas no código com o ESLint
 npm run lint:fix     # Corrige automaticamente problemas detectados pelo ESLint
 npm run format       # Formata todos os arquivos com o Prettier
-npm run format:check # Verifica se os arquivos estão devidamente formatados
+npm run format:check # Verifica se os arquivos estão devidamente formatados`
 
 > O comando npm run format é especialmente útil para corrigir problemas invisíveis, como diferenças de quebra de linha entre sistemas operacionais.
 
